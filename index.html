@@ -14,7 +14,7 @@
         <a href="#home" aria-label="WeberX Home">
           <img src="Weber X.png" alt="WeberX Logo">
         </a>
-      </div></div>
+      </div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -44,46 +44,36 @@
     </section>
 
     <!-- Projects -->
-<section id="projects" class="projects scroll-animate">
-  <h2>Projects</h2>
-  <div class="project-grid">
-    <div class="project-card" data-project="1">
-      <h3>Responsive Portfolio Website</h3>
-      <img src="srn.png" alt="Responsive Portfolio Website Screenshot" style="width:100%;border-radius:8px;margin-bottom:10px;">
-      <p>A personal portfolio site built with HTML, CSS, and JavaScript. Features a sticky navbar, smooth scroll animations, and a mobile-friendly design. Showcases my projects, skills, and contact info in a clean layout.</p>
-    </div>
-    <div class="project-card" data-project="2">
-      <h3>Animated Landing Page with Scroll Effects</h3>
-      <p>A modern landing page designed with colorful backgrounds and interactive scroll animations. Built using HTML, CSS, and JavaScript to demonstrate responsive design, hover effects, and smooth animations for an engaging user experience.</p>
-      <video width="100%" controls>
-        <source src="Video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
-</section>
+    <section id="projects" class="projects scroll-animate">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Responsive Portfolio Website</h3>
+          <img src="srn.png" alt="Responsive Portfolio Website Screenshot" style="width:100%;border-radius:8px;margin-bottom:10px;">
+          <p>A personal portfolio site built with HTML, CSS, and JavaScript. Features a sticky navbar, smooth scroll animations, and a mobile-friendly design. Showcases my projects, skills, and contact info in a clean layout.</p>
+        </div>
+        <div class="project-card">
+          <h3>Animated Landing Page with Scroll Effects</h3>
+          <p>A modern landing page designed with colorful backgrounds and interactive scroll animations. Built using HTML, CSS, and JavaScript to demonstrate responsive design, hover effects, and smooth animations for an engaging user experience.</p>
+          <video width="100%" controls>
+            <source src="Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
 
-<!-- Modal Popup -->
-<div id="project-modal" class="modal">
-  <div class="modal-content">
-    <span class="close-btn">&times;</span>
-    <h3 id="modal-title"></h3>
-    <p id="modal-desc"></p>
-  </div>
-</div>
-
-
- <!-- Contact -->
-<section id="contact" class="contact scroll-animate">
-  <h2>Contact Me</h2>
-  <form action="https://formspree.io/f/meolzgov" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
-  </form>
-</section>
-
+    <!-- Contact -->
+    <section id="contact" class="contact scroll-animate">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/meolzgov" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer>
@@ -101,7 +91,6 @@
         });
       });
     </script>
-
   </footer>
 
   <script src="script.js"></script>
